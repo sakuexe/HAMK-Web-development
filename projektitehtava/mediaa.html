@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Jari ja Taika - Etusivu</title>
+    <link rel="stylesheet" href="css/stylestructure.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="kuvat/JT-logo-square.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Urbanist:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+            <a href="index.html"><img class="pikkulogo" src="kuvat/JT-logo_dropshadow.png" alt="bändilogo"></a>
+            <h1>Jari ja taika -yhtye</h1>
+            <h2>Tanssi&shy;orkesteri Eteläisestä Suomesta</h2>
+            <div class="somerivi">
+                <a href="mailto:jaritaika@gmail.com" target="_blank"><img src="kuvat/icons/email.png" alt="email kuvake"></a>
+                <a href="https://www.facebook.com/JariTaika-191704827574713/" target="_blank"><img src="kuvat/icons/facebook.png" alt="facebook kuvake"></a>
+                <a href="https://www.youtube.com/watch?v=qCy4LEl-n7g" target="_blank"><img src="kuvat/icons/youtube.png" alt="youtube kuvake"></a>
+                <a href="https://open.spotify.com/artist/3AXzj9CsJxWYHX9IXtlFT2?si=FiyBx59sQwOPwewxCKpl7Q" target="_blank" class="spotifyheader"><img src="kuvat/icons/spotify.png" alt="spotify kuvake" class="spotifyheader"></a>
+                <a href="tel:+358407102496" target="_blank" class="puhelinheader"><img src="kuvat/icons/puhelin.png" alt="puhelin kuvake" class="puhelinheader"></a>
+            </div>
+            <div class="hamburger"></div>
+            
+        <div class="innercontainer">
+        <nav class="hidden" id="etusivu">
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="meista.html">Meistä</a></li>
+                <li><a href="mediaa.html">Mediaa</a></li>
+                <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+        <div class="maincontainer">
+
+            <article class="pääarticle">
+                <div class="innercontainer">
+                <h2>Mediaa</h2>
+                    <p>Kuuntele kappaleita taikka katso yhtyeen kuvia. Mediasisältöä löydät täältä.</p>
+                    <p>Jos pidät kuulemastasi, seuraa tanssiorkesteria Spotify:ssa taikka sosiaalisten medioiden puolella</p>
+                </div>
+            </article>
+
+            <article class="spotifysoitin">
+                <div class="innercontainer">
+                <h2>Spotify</h2>
+                <iframe id="spotifyembed" src="https://open.spotify.com/embed/artist/3AXzj9CsJxWYHX9IXtlFT2" width="950" height="380" allow="encrypted-media"></iframe>
+            </div>
+            </article>
+
+            <article class="kuvagalleria">
+                <div class="innercontainer">
+                    <h2>Kuva&shy;galleria</h2>
+                    <p>Klikkaa albumia katsoaksesi sen kategorian kuvia</p>
+                <div class="thumbs">
+                    <div id="thumbnail1" tabindex="1"><img src="kuvat/icons/yhteiskuvia.jpg" alt="yhteiskuvia thumbnail" id="ekathumb"></div>
+                    <div id="thumbnail2" tabindex="2"><img src="kuvat/icons/jäsenkuvia.jpg" alt="yhteiskuvia thumbnail" id="tokathumb"></div>
+                    <div id="thumbnail3" tabindex="3"><img src="kuvat/icons/logokuvia.jpg" alt="yhteiskuvia thumbnail" id="vikathumb"></div>
+                </div>
+
+                <div id="yhteiskuvat" class="piilotettu">
+
+                    <a href="kuvat/kuva01.jpg" target="_blank"><img src="kuvat/kuva01.jpg" alt="Jari ja Jaakko, soittimet kädessä" id="kuva01"></a>
+                    <a href="kuvat/kuva02.jpg" target="_blank"><img src="kuvat/kuva02.jpg" alt="Bändin neljä esiintyjää ryhmäkuvassa" id="kuva02"></a>
+                    <a href="kuvat/kuva03.jpg" target="_blank"><img src="kuvat/kuva03.jpg" alt="Bändin neljä esiintyjää traktorilla" id="kuva03"></a>
+                    <a href="kuvat/kuva04.jpg" target="_blank"><img src="kuvat/kuva04.jpg" alt="Bändin kaksi esiintyjää lavalla" id="kuva04"></a>
+                    <a href="kuvat/site-header01.png" target="_blank"><img src="kuvat/site-header01.png" alt="Bändin kaksi esiintyjää lavalla" id="kuva05"></a>
+                    <a href="kuvat/site-header02.png" target="_blank"><img src="kuvat/site-header02.png" alt="Bändin kaksi esiintyjää lavalla" id="kuva06"></a>
+
+                </div>
+
+                <div id="jäsenkuvat" class="piilotettu">
+
+                    <a href="kuvat/jari.jpg" target="_blank"><img src="kuvat/jari.jpg" alt="Jarista kuva" id="kuva07"></a>
+                    <a href="kuvat/jukka.jpg" target="_blank"><img src="kuvat/jukka.jpg" alt="Jukasta kuva" id="kuva08"></a>
+                    <a href="kuvat/jaakko.jpg" target="_blank"><img src="kuvat/jaakko.jpg" alt="Jaakosta kuva" id="kuva09"></a>
+                    <a href="kuvat/hannu.jpg" target="_blank"><img src="kuvat/hannu.jpg" alt="Hannusta kuva" id="kuva10"></a>
+
+                </div>
+
+                <div id="logokuvat" class="piilotettu">
+
+                    <a href="kuvat/jarijataikalogo.png" target="_blank"><img src="kuvat/jarijataikalogo.png" alt="Yhtyeen logo" id="kuva11"></a>
+                    <a href="kuvat/JT-logo_black.svg" target="_blank"><img src="kuvat/JT-logo.svg" alt="Toinen idea yhtyeen logosta" id="kuva12"></a>
+
+                </div>
+                </div>
+            </article>
+
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

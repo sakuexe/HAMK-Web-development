@@ -1,0 +1,135 @@
+/* perustat */
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: rgb(56, 56, 56);
+    padding-bottom: 5rem;
+}
+
+header {
+    width: 100%;
+    border-bottom: 0.6rem solid rgba(86, 148, 72, 0.753);
+}
+
+nav {
+    width: 100%;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    /* background-image: linear-gradient(336deg, rgba(99, 190, 50, 0.096) 0%, rgba(88, 221, 88, 0.137) 100%); */
+}
+
+article {
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    padding: 1rem 0 2rem 0;
+}
+
+.maincontainer {
+    width: 100%;
+    margin: 0 auto 5rem auto;
+}
+
+h2, p, a {
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+    color: rgb(236, 234, 234);
+    word-wrap: break-word;
+}
+
+h1 {
+    padding: 1em 0 1em 2rem;
+    font-family: 'Merriweather', serif;
+    font-size: 2.2em;
+    font-weight: 800;
+    word-wrap: break-word;
+} /*  toinen fontti: Work Sans, Wei Huang. Maybe myös: Dosis, Impallari Type  */
+
+h2 {
+    padding: 3rem 2rem 0 2rem;
+    font-family: 'Merriweather', serif;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(236, 234, 234);
+}
+
+h3 {
+    font-family: 'Urbanist', sans-serif;
+    margin: 1rem 2rem 0 2rem;
+    font-size: 1.4rem;
+    color: rgb(236, 234, 234);
+    hyphens: auto;
+}
+
+p {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.alaotsikko {
+    margin: 0 2rem 2rem 2rem;
+    padding: 0;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(231, 231, 231);
+}
+
+.keskiotsikko {
+    margin: 0 0 0 1rem;
+}
+
+hr {
+    width: 90%;
+}
+
+li, a {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+}
+
+ul {
+    flex-direction: column;
+}
+li {
+    padding: 1em 1em 1em 1em;
+}
+
+img {
+    color: rgb(228, 238, 226);
+}
+
+.esimerkki ul {
+    color: rgb(236, 234, 234);
+    margin: 3rem 2rem 2rem 2rem;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(336deg, rgba(203, 223, 192, 0.096) 0%, rgba(255, 255, 255, 0.137) 100%);
+    border: 0.1rem solid rgba(255, 255, 255, 0.080);
+}
+
+.esimerkki li:hover {
+    background-color: rgba(86, 148, 72, 0.753);
+    box-shadow: rgb(39, 43, 35) 0 0.4rem 1rem;
+}
+p a {
+    text-decoration: underline;
+}
+
+table input {
+    opacity: 40%;
+    display: block;
+    margin: 0 auto;
+}

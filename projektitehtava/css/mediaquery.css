@@ -1,0 +1,554 @@
+/* universal */
+header {
+    background-image: url(../kuvat/kitarabg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1, header h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: black 0 0.1em 0.2em ;
+}
+
+header h1 {
+    padding: 4em 0 0 0.8rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+header h2 {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.somerivi {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 4rem;
+    margin: 1rem auto 3rem auto;
+}
+
+.somerivi img {
+    width: 3rem;
+}
+
+.pikkulogo {
+    width: 6rem;
+    position: absolute;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+nav {
+    padding-bottom: 2rem;
+}
+
+.hamburger {
+    width: 3.1em;
+    height: 3.1em;
+    background-image: url(../kuvat/hamburger.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-right: 0.4rem;
+    right: 0em;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+ul {
+    background-image: linear-gradient(336deg, rgba(99, 190, 50, 0.096) 0%, rgba(88, 221, 88, 0.137) 100%);
+}
+
+.hidden ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hidden ul li:nth-child(3) {
+    display: none;
+}
+
+.hidden ul li:nth-child(4) {
+    display: none;
+}
+
+/* Etusivun */
+
+.pääarticle {
+    background-color: rgb(56, 56, 56);
+}
+
+.pääarticle h2 {
+    padding-bottom: 0;
+}
+
+.pallokuvat h2 {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+#jari, #jukka, #jaakko, #hannu {
+    width: 50%;
+    flex-basis: 50.00%;
+}
+
+.pallokuvat img {
+    width: 50%;
+}
+.pallokuvat h3 {
+    text-align: center;
+}
+
+.pallokuvat.rooli {
+    text-align: center;
+}
+
+.roolietusivu {
+    margin: 0 0 2rem 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.infoa {
+    background-image: url(../kuvat/kuva03bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 10rem;
+}
+
+#excel {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ohjelmistotable {
+    flex-basis: 100%;
+}
+
+table {
+    margin: 1rem auto;
+    width: 80%;
+    font-weight: 600;
+    background-image: linear-gradient(336deg, rgba(203, 223, 192, 0.096) 0%, rgba(255, 255, 255, 0.137) 100%);
+    border: 0.1rem solid rgba(255, 255, 255, 0.062);
+}
+
+th {
+    background-color: rgb(86, 148, 72);
+    text-align: left;
+}
+
+td {
+    color: rgb(204, 204, 204);
+}
+
+td a {
+    color: rgb(204, 204, 204);
+    text-decoration: underline;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    font-family: 'Urbanist', sans-serif;
+}
+
+th, td {
+    padding: 0.8rem 0.5rem 0.5rem 0.5rem;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.637);
+    box-shadow: rgb(39, 43, 35) 0 0.4rem 1rem;
+}
+
+table:hover {
+    box-shadow: rgba(39, 43, 35, 0.171) 0 0.4rem 1rem;
+}
+
+/* Meistä -sivu */
+
+#meistä {
+    background-color: rgb(56, 56, 56);
+}
+
+.vasen, .oikea {
+    width: 45%;
+}
+
+.jäsenet p{
+    padding: 0;
+    margin: 0;
+}
+
+.jäsenet img {
+    width: 100%;
+}
+
+.jäsenet {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.jäsenet h3 {
+    margin-left: 0;
+}
+
+.rooli {
+    margin-bottom: 1em;
+    font-weight: 800;
+    font-style: italic;
+}
+
+article img {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+#jaribio {
+    background-color: rgb(75, 74, 74);
+}
+
+#jaakkobio {
+    background-color: rgb(75, 74, 74);
+}
+
+#historia1 {
+    background-image: url(../kuvat/kuva02bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#historia3 {
+    background-image: url(../kuvat/site-header02bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#historia1 p, #historia3 p {
+    background-color: rgba(27, 29, 26, 0.671);
+    border-top: 0.05rem solid rgba(255, 255, 255, 0.15);
+    border-bottom: 0.05rem solid rgba(255, 255, 255, 0.15);
+}
+
+
+/* Mediaa -sivu */
+
+#spotifyembed {
+    margin: 2rem auto 2rem auto;
+    width: 95%;
+    display: block;
+    box-shadow: rgba(37, 18, 18, 0.664) 0 0.2em 0.3em;
+    border: 0.1rem solid rgba(228, 227, 227, 0.301);
+}
+
+.spotifysoitin {
+    background-image: url(../kuvat/spotifybg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.kuvagalleria h2 {
+    margin-bottom: 3rem;
+}
+
+.thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+#thumbnail1, #thumbnail2, #thumbnail3{
+    width: 70%;
+}
+
+.kuvagalleria img {
+    max-width: 25rem;
+    border: 0.1rem solid rgba(228, 227, 227, 0.301);
+}
+
+.kuvagalleria img:hover {
+    box-shadow: rgba(23, 37, 18, 0.664) 0 0.5rem 0.5em;
+}
+
+#yhteiskuvat, #jäsenkuvat {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 3rem;
+    justify-content: space-evenly;
+}
+
+#kuva01, #kuva02, #kuva03, #kuva04, #kuva05, #kuva06, #kuva07, #kuva08, #kuva09, #kuva10, #kuva11, #kuva12 {
+    flex-basis: 20%;
+    margin-top: 1rem;
+}
+
+#kuva07, #kuva08, #kuva09, #kuva10 {
+    flex-basis: 30%;
+}
+
+#kuva04, #kuva05, #kuva06 {
+    width: 80%;
+}
+
+#kuva11, #kuva12 {
+    padding: 2rem;
+}
+
+#yhteiskuvat.piilotettu, #jäsenkuvat.piilotettu, #logokuvat.piilotettu {
+    display: none;
+}
+
+#jäsenkuvat {
+    margin: 2rem 0;
+}
+
+#logokuvat {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.valittu img {
+    border-top: 1rem solid rgba(86, 148, 72, 0.712);
+}
+
+/* yhteystiedot -sivu */
+
+.somet {
+    background-image: url(../kuvat/stagebg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+}
+
+.somet img {
+    width: 7rem;
+}
+
+.somet h3 {
+    margin: 1rem 0 0 0;
+}
+
+.somecontainer {
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    row-gap: 2rem;
+}
+
+.facebook, .twitter, .spotify, .youtube, #puhelin, #sposti {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#yhteystiedot {
+    padding: 2rem 0 3rem 0;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#yhteystiedot img {
+    width: 7rem;
+}
+
+@media (max-width: 300px) {
+    .somerivi {
+        flex-direction: column;
+        gap: 10% 0;
+        padding: 0;
+    }
+    .somerivi a img {
+        margin: 0.3rem auto;
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    /* Etusivun */
+
+    .puhelinheader, .spotifyheader {
+        display: none;
+    }
+
+    .hidden ul li:nth-child(2) {
+        display: none;
+    }
+
+    .hidden ul {
+        flex-direction: column;
+    }   
+
+    .somerivi {
+        width: 50%;
+        gap: 0 1rem;
+    }
+
+    #jari, #jukka, #jaakko, #hannu {
+        width: 50%;
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width: 550px) {
+
+    .ohjelmistotable {
+        flex-basis: 50%;
+    }
+    .hidden ul li:nth-child(3) {
+        display: block;
+    }  
+    .somerivi {
+        justify-content: center;
+        gap: 0 2rem;
+    }
+    .facebook, .twitter, .spotify, .youtube, #puhelin, #sposti {
+        flex-basis: 50%;
+    }
+    #thumbnail1, #thumbnail2, #thumbnail3{
+        width: 43%;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .hamburger {
+        display: none;
+    }
+
+    ul {
+        background-image: none;
+    }
+
+    .hidden ul li:nth-child(4) {
+        display: block;
+    }
+
+    #jari, #jukka, #jaakko, #hannu {
+        width: 6rem;
+        flex-basis: 33.33333%;
+    }
+
+    .facebook, .twitter, .spotify, .youtube, .puhelin, .sposti {
+        flex-basis: 25%;
+    }
+
+    #logokuvat {
+        width: 60%;
+}
+
+@media (min-width: 800px){
+
+    #jari, #jukka, #jaakko, #hannu {
+        flex-basis: 20%;
+    }
+    .pallokuvat img {
+        width: 7rem;
+    }
+    .innercontainer {
+        margin: 0 6rem;
+    }
+
+    .meistätausta {
+        width: 100%;
+        background-color: rgb(75, 74, 74);
+    }
+
+    .jäsenet {
+        width: 76%;
+        margin: 0 auto;
+    }
+
+    #historia1 p, #historia3 p {
+        border: 0.05rem solid rgba(255, 255, 255, 0.15);
+    }
+
+    .somet img {
+        width: 5rem;
+    }
+
+    .facebook, .twitter, .spotify, .youtube, #sposti, #puhelin {
+        flex-basis: 25%;
+        width: 5rem;
+    }
+
+    #kuva04, #kuva05, #kuva06 {
+        width: 40rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .ohjelmistotable {
+        flex-basis: 33.333333333%;
+    }
+    .jäsenet img {
+        width: 20rem;
+    }
+    #thumbnail1, #thumbnail2, #thumbnail3 {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .innercontainer {
+        margin: 0 20%;
+    }
+    .somecontainer{
+        row-gap: 4rem;
+    }
+    .jäsenet {
+        width: 56%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1500px) {
+    .innercontainer {
+        max-width: 1200px;
+    }
+    .somecontainer{
+        row-gap: 4rem;
+    }
+    .jäsenet {
+        max-width: 1200px;
+        margin: 0 21%;
+        justify-content: space-between;
+    }
+}}

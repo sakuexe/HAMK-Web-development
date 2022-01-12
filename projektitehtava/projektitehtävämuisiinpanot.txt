@@ -1,0 +1,14 @@
+Mobile first:
+	ensin suunnitellaan pienemmät näytöt eli mobiili leiskat
+	@media {min-width: 700px} //* vasta kun 700px leveä, näyttää css elementit
+
+Navigaatio script:
+	Moodle Javascript videot
+	.addEventListener("click", funktioNimi)
+	.ClassList.toggle("htmlElementtiNimi")
+	<script src="scripti.js"> -html pohjalle
+
+Etc.
+	Lyhyt navigaatio -bar/lista
+	Excel, table toteutus
+	
