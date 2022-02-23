@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Sudoku - epic edition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <h1>Sudoku</h1>
+    <p class="alaotsikko">harjoitus</p>
+    <div id="ohje">
+
+        <h2>Instructions</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget tellus interdum lorem 
+            porttitor iaculis quis vel justo. Class aptent taciti sociosqu ad litora torquent per 
+            conubia nostra, per inceptos himenaeos. Morbi sit amet viverra lectus, eget blandit mi. 
+            Mauris venenatis a libero eu molestie. Curabitur vel sodales enim, in fermentum nunc. 
+            Phasellus blandit, erat eu blandit molestie, libero nisi placerat neque, vel rhoncus 
+            quam magna eget justo. Vivamus ac blandit libero.</p>
+
+        <button id="check">Check</button>
+
+        <div class="Fader">
+            <ul>
+                <li id="RowValidator">Rows: valid</li>
+                <li id="ColumnValidator">Columns: valid</li>
+                <li id="SquareValidator">Squares: valid</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="peli">
+
+        <table class="pelitable" id="eka">
+            <tr id="1">
+                <td>1</td><td>2</td><td>3</td> <th class="line">|</th> <td>4</td><td>5</td><td>6</td> <th class="line">|</th> <td>7</td><td>8</td><td>9</td>
+            </tr>
+            <tr id="2">
+                <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>8</td>
+            </tr>
+            <tr id="3">
+                <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>7</td>
+            </tr>
+            </table>
+            <hr>
+            <table class="pelitable" id="toka">
+                <tr id="1">
+                    <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>1</td><td>2</td><td>3</td> <th class="line">|</th> <td>0</td><td>0</td><td>6</td>
+                </tr>
+                <tr id="2">
+                    <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>4</td><td>5</td><td>6</td> <th class="line">|</th> <td>0</td><td>0</td><td>5</td>
+                </tr>
+                <tr id="3">
+                    <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>7</td><td>8</td><td>9</td> <th class="line">|</th> <td>0</td><td>0</td><td>4</td>
+                </tr>
+            </table>
+            <hr>
+            <table class="pelitable" id="kolmas">
+                <tr id="1">
+                    <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>3</td>
+                </tr>
+                <tr id="2">
+                    <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>2</td>
+                </tr>
+                <tr id="3">
+                    <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>0</td> <th class="line">|</th> <td>0</td><td>0</td><td>1</td>
+                </tr>
+            </table>
+
+    </div>
+
+    <script src="scripti.js"></script>
+
+</body>
+</html>
